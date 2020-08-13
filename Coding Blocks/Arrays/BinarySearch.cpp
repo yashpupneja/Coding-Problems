@@ -1,6 +1,14 @@
+//Binary Search is used in sorted array only.
+//Binary search is more efficient than the linear search. 
+//In this the middle element is found and then if the element to be searched is less than middle then we move to left else we move to right. 
+//We do the same thing till we find the element. 
+//If the element is not found then we say that the element is not present. 
+//This is also known as divide and conquer technique.
+//Binary Search Algorithm.
+
 #include<bits/stdc++.h>
 using namespace std;
-//Binary Search Algorithm.
+
 int bs(int a[],int n,int key){
 	int s=0,e=n-1;
 	while(s<=e){
