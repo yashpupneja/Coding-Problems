@@ -1,3 +1,8 @@
+//Bubble Sort : In this algorithm we take the largest element to the end by pairwise swapping.
+//In this the two elements are compared with each other and the element that is smaller comes first and which is larger comes last. 
+//In this way, the first iteration moves the largest element to the end and then moves the second largest element to the second last. 
+//This is how the sorting is performed in the bubble sort.
+
 #include<bits/stdc++.h>
 using namespace std;
 void bs(int a[],int n){
