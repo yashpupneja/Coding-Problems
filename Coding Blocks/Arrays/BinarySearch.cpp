@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-//Binary Search Algorithm
+//Binary Search Algorithm.
 int bs(int a[],int n,int key){
 	int s=0,e=n-1;
 	while(s<=e){
